@@ -8,7 +8,7 @@ Use it, as if you would use gradlew.
 gradlewj <GRADLEW COMMANDS>
 ```
 
-### Build
+### Build On Unix
 To package the project as a jar type:
 ```
 gradlew build
@@ -16,9 +16,26 @@ gradlew build
 The output will be under `.\out`
 
 
-### Run
+### Run On Unix
 To run the project as a java applicaiton type
 ```
 gradlew run
+```
+The application will be started.
+
+
+
+### Build On Windows
+To package the project as a jar type:
+```
+gradle build
+```
+The output will be under `.\out`
+
+
+### Run On Windows
+To run the project as a java applicaiton type
+```
+gradle run
 ```
 The application will be started.
